@@ -18,7 +18,7 @@ app.use('/', productRoutes);
 app.use('/products', productRoutes);
 app.use('/add/product',productRoutes);
 app.use('/products/:id',productRoutes);
-
+// app.use('/barcode/:id', productRoutes);
 // configure the PORT number.
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
