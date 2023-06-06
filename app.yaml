@@ -6,3 +6,4 @@ env_variables:
   DB_DATABASE: "gt3dp-db"
   DB_USER: "gt3dp-bhanu"
   DB_PASS: "Welcome@123"
+  PORT: "8080"
